@@ -1,2 +1,22 @@
+$navbar-default-bg: #f1f285;
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float:left;
+  font-size: 1.7em;
+  color:black;
+  font-family: 'Indie Flower', cursive;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
+}
+.jumbotron
+ {
+  background-image: image_url('DIY-App.jpg');
+  background-size: cover;
+  height: 85vh;
+}
