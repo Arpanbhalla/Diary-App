@@ -18,5 +18,12 @@ $navbar-default-bg: #f1f285;
  {
   background-image: image_url('DIY-App.jpg');
   background-size: cover;
-  height: 85vh;
+  width: auto;
+  height: 80vh;
+}
+.footer {
+  text-align: center;
+}
+.footer span {
+  color: green;
 }
