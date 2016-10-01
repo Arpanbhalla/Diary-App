@@ -8,15 +8,18 @@
 </head>
 <body>
 
-  <% flash.each do |name , msg| %>
-  <ul>
-    <li><%= msg %></li>
-  </ul>
-  <% end %>
-  <%= render 'layouts/navigation' %>
-  <div class ='container'>
-    <%= yield %>
-    <%= render 'layouts/footer' %>
-  </div>
-  </body>
-  </html>
+<%= render 'layouts/navigation' %>
+
+<%= render 'layouts/messages' %>
+
+<div class="container">
+
+<%= yield %>
+
+</div>
+
+<%= render 'layouts/footer' %>
+
+</body>
+
+</html>
